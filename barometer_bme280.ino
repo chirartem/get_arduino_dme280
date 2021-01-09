@@ -28,7 +28,7 @@ void loop()
   //get and print humidity data
   Serial.print("\"h\": \"");
   Serial.print(bme280.getHumidity());
-  Serial.println("%\"");
+  Serial.println("\"");
   
   Serial.println("}");
   Serial.println();
