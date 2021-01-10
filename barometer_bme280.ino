@@ -31,7 +31,6 @@ void loop()
   Serial.println("\"");
   
   Serial.println("}");
-  Serial.println();
  
   delay(1000);
 }
